@@ -1,0 +1,143 @@
+img{
+    width: 20px;
+    height: 20px;
+}
+.freedom{
+    position: relative;
+    top: 5.02rem;
+    height:1100px ;
+    width: auto;
+    background-image: url(freedom.jpg);
+    background-size: cover;
+}
+.freedom h2{
+    position: relative;
+    bottom: -1050px;
+    left: -500px; 
+    color: #ffffff;
+} 
+main{
+    text-align: center;
+}
+.hplan{
+    position: relative;
+    bottom: -100px;
+    color: rgb(103, 230, 103);
+    font-size: 44px;
+}
+.plan-container{
+    position: relative;
+    bottom: -180px;
+    margin: auto;
+    width: 60%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+.plan{
+    border: 2px solid;
+    width: 30%;
+    height: 400px;
+}
+.short{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    background-color: rgb(185, 227, 185);
+    border: rgb(185, 227, 185);
+}
+button{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0, 128, 0, 0.973);
+    border: rgba(0, 128, 0, 0.973);
+    color: white;
+    position: relative;
+    right: -121px;
+    border-radius: 6px;
+    font-size: 12px;
+    transition: all 0.1s;
+}
+button a{
+    color: #ffffff; 
+    text-decoration: none;
+    transition: all 0.1s;
+    font-weight: bold;
+}
+button:hover{
+    background-color: white;
+    color: rgba(0, 128, 0, 0.973);
+    border: 2px solid rgba(0, 128, 0, 0.973);
+    z-index: 2;
+}
+button:hover a{
+    color: rgba(0, 128, 0, 0.973);
+    font-weight: bold;
+    z-index: 2;
+}
+.long{
+    height: 500px;
+    position: relative;
+    top: -50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(40, 216, 40, 0.973);
+    border: rgba(40, 216, 40, 0.973);
+}
+.recom{
+    width: 250px;
+    height: 40px;
+    background-color: rgba(0, 128, 0, 0.973);
+    border: rgba(0, 128, 0, 0.973);
+    color: white;
+    position: relative;
+    right: -50px;
+    border-radius: 6px;
+    font-size: 24px;
+    color: rgb(103, 230, 103);
+    background-color: white;
+}
+.short h3,.month{
+    color: rgba(0, 128, 0, 0.973);
+}
+.short .month{
+    color: gray;
+}
+.long h3 , .word{
+    color: white;
+}
+.light{
+    font-weight: lighter;
+}
+.pink{
+    background-color: rgb(230, 58, 104);
+    padding-top: 50px;
+    color: white;
+    margin-bottom: 50px;
+}
+.last-container{
+    display: grid;
+    grid-template-rows: repeat(2,15%);
+    grid-template-columns:repeat(3,200px);
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: -100px;
+    margin: auto;
+    width: 60%;
+    height: 400px;
+    gap: 40px 15px;
+}
+.size{
+    font-size: 50px;
+}
+.down{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
