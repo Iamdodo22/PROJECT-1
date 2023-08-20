@@ -1,78 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="shared.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <div class="flex-container">
-            <div class="flex item1">
-             <div>
-                <a class="choose" href=""><img class="menu" src="menu.svg"></a>
-             </div class="uhost">
-                <img class="uhost" src="uhost-icon.png" alt="photo">
-            </div>
-            <div class="flex item2">
-                <div><a class="top-lnk" href="packages.html">Packages</a></div>
-                <div><a class="top-lnk" href="customers.html">Customers</a></div>
-                <button class="button1"><a href="">Start Hosting</a></button>
-            </div>
-        </div>
-    </header>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="shared.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>uHost</title>
+  </head>
+  <body>
+    <nav class="flex-container">
+      <div class="flex item1">
+        <a class="choose" href=""><img class="menu" src="images/menu.svg" /></a>
+        <img class="uhost" src="images/uhost-icon.png" alt="photo" />
+      </div>
+      <div class="flex item2">
+        <a class="top-lnk" href="packages.html">Packages</a>
+        <a class="top-lnk" href="customers.html">Customers</a>
+        <a href="" class="button1">Start Hosting</a>
+      </div>
+    </nav>
     <main>
-      <section class="freedom">
+      <section class="freedom each--section">
         <div>
-            <h2>Get the freedom you deserve.</h2>
+          <h2>Get the freedom you deserve.</h2>
         </div>
       </section>
-      <section>
-            <h2 class="hplan">Choose Your Plan</h2>
-    <div class="plan-container">
-        <div class="plan short">
+      <section class="each--section">
+        <h2 class="hplan">Choose Your Plan</h2>
+        <div class="plan-container">
+          <div class="plan short">
             <h3>FREE</h3>
-            <P class="month">$0/month</P>
-            <h3>For hobby projects <br>or small teams.</h3>
-            <p class="light">1 Workspace <br><br>Unlimited Traffic <br><br>10GB Storage <br><br>Basic Support</p>
-            <button><a class="choose" href="">CHOOSE PLAN</a></button>
-        </div>
-        <div class="plan long">
+            <p class="month">$0/month</p>
+            <h3>For hobby projects <br />or small teams.</h3>
+            <div>
+              <p class="light">
+                1 Workspace <br /><br />Unlimited Traffic <br /><br />10GB
+                Storage <br /><br />Basic Support
+              </p>
+              <button><a class="choose" href="">CHOOSE PLAN</a></button>
+            </div>
+          </div>
+          <div class="plan long">
             <button class="recom">RECOMMENDED</button>
             <h3>PLUS</h3>
-            <P>$29/month</P>
-            <h3>For ambitious <br>projects.</h3>
-            <p class="word light">5 Workspace <br><br>Unlimited Traffic <br><br>100GB Storage <br><br>Plus Support</p>
-            <button class=""><a class="choose" href="">CHOOSE PLAN</a></button>
-        </div>
-        <div class="plan short">
+            <p>$29/month</p>
+            <h3>For ambitious <br />projects.</h3>
+            <p class="word light">
+              5 Workspace <br /><br />Unlimited Traffic <br /><br />100GB
+              Storage <br /><br />Plus Support
+            </p>
+            <button class="choose">CHOOSE PLAN</button>
+          </div>
+          <div class="plan short">
             <h3>PREMIUM</h3>
-            <P class="month">$99/month</P>
-            <h3>Your enterprise <br>solution.</h3>
-            <p class="light">1 Workspace <br><br>Unlimited Traffic <br><br>10GB Storage <br><br>Priority Support</p>
+            <p class="month">$99/month</p>
+            <h3>Your enterprise <br />solution.</h3>
+            <p class="light">
+              1 Workspace <br /><br />Unlimited Traffic <br /><br />10GB Storage
+              <br /><br />Priority Support
+            </p>
             <button><a class="choose" href="">CHOOSE PLAN</a></button>
+          </div>
         </div>
-    </div>
       </section>
-      <section>
-         <div class="pink">
-            <h2 class="size">Many Good Reasons to stick Around</h2>
-            <div class="last-container">
-                <div><img class="down" src="customer.jpg" alt=""></div>
-                <div><img class="down" src="guarantee.jpg" alt=""></div>
-                <div><img class="down" src="light.jpg" alt=""></div>
-                <div>3,857,000 Trusting <br>Customers</div>
-                <div>99.999% Uptime Guarantee</div>
-                <div>Lightning Fast CDN</div>
-            </div>
-         </div>
-        </section>
+      <section class="each--section">
+        <div class="pink">
+          <h2 class="size">Many Good Reasons to stick Around</h2>
+          <div class="last-container">
+            <div><img class="down" src="images/customer.jpg" alt="" /></div>
+            <div><img class="down" src="images/guarantee.jpg" alt="" /></div>
+            <div><img class="down" src="images/light.jpg" alt="" /></div>
+            <div>3,857,000 Trusting <br />Customers</div>
+            <div>99.999% Uptime Guarantee</div>
+            <div>Lightning Fast CDN</div>
+          </div>
+        </div>
+      </section>
     </main>
-<footer>
-        <div><a class="lnk" href="">Support</a></div>
-        <div><a class="lnk" href="">Terms of use</a></div>
-</footer>
-</body>
+    <footer class="each--section">
+      <div><a class="lnk" href="">Support</a></div>
+      <div><a class="lnk" href="">Terms of use</a></div>
+    </footer>
+  </body>
 </html>
