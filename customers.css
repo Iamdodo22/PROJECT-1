@@ -3,46 +3,53 @@ main{
     top: 5rem;
 }
 .grid-container{
+    margin: 2rem 0;
     display: grid;
-    grid-template-columns:380px;
-    grid-template-rows: ;
-    gap: 200px;
+    grid-template-columns:45% 25%;
+    justify-content: flex-start;
 }
-.flex{
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
+.image img{
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 5px 3px;
 }
-.img1 img{
-    height: 240px;
-    width: 300px;
-    position: relative;
-    bottom: -140px;
+.grid-container2{
+    display: grid;
+    grid-template-columns:25% 45%;
+    justify-content: flex-end;
+    margin-bottom: 8rem;
 }
-.img2 img{
-    height: 240px;
-    width: 300px;
-    position: relative;
-    bottom: -170px;
+li{
+    list-style: none;
 }
-.grid-item{
+.grid-item1{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.grid-item2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 h1{
-    color: red;
-    font-size: 50px;
+    color: rgb(255, 84, 84);
+    font-size: 2rem;
+    /* margin: 0.2rem; */
 }
 h2{
-    color: gray;
-    text-align: center;
+    color: lightgray;
+    font-size: 1.1rem;
+    /* margin: 0.2rem; */
 }
-p{
-    font-size: 25px;
-    text-align: center;
+ul{
+    font-family: Montserrat, sans-serif;
+    /* margin: 0.2rem; */
+    text-align: right;
 }
-footer{
-    position: relative;
-    bottom: -100px;
+.left li{
+    text-align: left;
 }

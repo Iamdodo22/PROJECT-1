@@ -1,123 +1,124 @@
-img{
-    width: 20px;
-    height: 20px;
-}
 .freedom{
-    position: relative;
-    top: 5.02rem;
-    height:1100px ;
+    height:15rem;
     width: auto;
-    background-image: url(freedom.jpg);
-    background-size: cover;
+    background-image: url("images/freedom.jpg");
+    background-position-y: 33%;
 }
 .freedom h2{
-    position: relative;
-    bottom: -1050px;
-    left: -500px; 
+    position: absolute;
+    top: 15rem;
+    left: 8rem;
     color: #ffffff;
 } 
 main{
     text-align: center;
 }
 .hplan{
-    position: relative;
-    bottom: -100px;
-    color: rgb(103, 230, 103);
-    font-size: 44px;
+    padding: 70px 0;
+    color: #2ddf5c;
+    font-size: 35px;
 }
 .plan-container{
-    position: relative;
-    bottom: -180px;
-    margin: auto;
-    width: 60%;
-    height: 700px;
+    width: 100%;
+    padding: 50px 15%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 15px;
+    align-items: center;
+    gap: 2rem;
 }
 .plan{
+    width: 100%;
     border: 2px solid;
-    width: 30%;
-    height: 400px;
-}
-.short{
+    padding: 1.5rem 1rem;
+    border-radius: .2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-content: center;
-    background-color: rgb(185, 227, 185);
-    border: rgb(185, 227, 185);
+    align-items: center;
+    gap: 2.5rem;
+    box-shadow: 4px 4px 10px black;
 }
-button{
-    width: 100px;
-    height: 40px;
+.short{
+    background-color: #d5ffdc;
+    border: #d5ffdc;
+}
+.choose{
     background-color: rgba(0, 128, 0, 0.973);
     border: rgba(0, 128, 0, 0.973);
     color: white;
-    position: relative;
-    right: -121px;
     border-radius: 6px;
-    font-size: 12px;
     transition: all 0.1s;
+    font-family: "Montserrat", sans-serif;
+    padding: .8rem 2rem;
+    width: max-content;
+    box-shadow: 4px 4px 10px black;
 }
-button a{
-    color: #ffffff; 
-    text-decoration: none;
-    transition: all 0.1s;
-    font-weight: bold;
-}
-button:hover{
+.choose:hover{
     background-color: white;
     color: rgba(0, 128, 0, 0.973);
     border: 2px solid rgba(0, 128, 0, 0.973);
     z-index: 2;
 }
-button:hover a{
-    color: rgba(0, 128, 0, 0.973);
-    font-weight: bold;
-    z-index: 2;
-}
 .long{
-    height: 500px;
-    position: relative;
-    top: -50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: rgba(40, 216, 40, 0.973);
-    border: rgba(40, 216, 40, 0.973);
+    background-color: #19b84c;
+    border: #19b84c;
 }
 .recom{
-    width: 250px;
-    height: 40px;
-    background-color: rgba(0, 128, 0, 0.973);
+    padding: .5rem 4rem;
     border: rgba(0, 128, 0, 0.973);
-    color: white;
-    position: relative;
-    right: -50px;
+    color: rgb(25, 184, 76);
+    font-weight: bolder;
     border-radius: 6px;
-    font-size: 24px;
-    color: rgb(103, 230, 103);
+    font-size: 1.7em;
     background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px 2px;
 }
-.short h3,.month{
+.plan h3{
+    font-size: 2.3em;
+    font-weight: bolder;
+}
+.plan h2{
+    font-size: 2em;
+    color: white;
+}
+.plan p{
+    font-size: 2.3em;
+    color: gray;
+}
+.short h3{
     color: rgba(0, 128, 0, 0.973);
 }
-.short .month{
+.short {
     color: gray;
 }
 .long h3 , .word{
     color: white;
 }
+.month{
+    color: rgb(14, 79, 31) !important;
+}
 .light{
     font-weight: lighter;
+    font-size: 25px;
+}
+.plan ul{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.plan ul li{
+    font-size: 2em;
+}
+.ulong li{
+    color: #ffffff;
 }
 .pink{
-    background-color: rgb(230, 58, 104);
+    background-color:#ff1b68;
     padding-top: 50px;
     color: white;
     margin-bottom: 50px;
+    box-shadow: 4px 4px 10px black;
 }
 .last-container{
     display: grid;
