@@ -8,7 +8,6 @@ body{
     width: 100vw;
     overflow-x: hidden;
     font-family: Montserrat, sans-serif;
-
 }
 /* nav bar */
 .container1{
@@ -30,25 +29,79 @@ body{
     flex-direction: row;
     gap: 10px;
 }
+@media (max-width:1125px) {
+    .flex{
+       padding-right: 5rem; 
+    }
+}
+@media (max-width:1040px) {
+    .flex{
+       padding-right: 3rem; 
+    }
+}
+@media (max-width:940px) {
+    .flex{
+       padding-right: 1.5rem; 
+    }
+}
+@media (max-width:890px) {
+    .flex{
+       padding-right: .2rem; 
+       gap: 5px;
+    }
+}
 .menu{
     width: 80px;
     height: 150px;
 }
+@media (max-width:580px) {
+    .menu{
+          height: 100px;
+          width: 60px;  
+        }
+    }
 .uhost{
     width: 30px;
     height: 30px;
-    position: relative;
-    bottom: -64px;
+    position: fixed;
+    top: 20px;
+    left: 75px;
 }
-.item1{
-    position: relative;
-}
+@media (max-width:580px) {
+    .uhost{
+          height: 20px;
+          width: 20px; 
+          position: fixed;
+          top: 30px;
+          left: 60px; 
+        }
+    }
 .item2{
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 70px;
 }
+@media (max-width:500px) {
+    .item2{
+          gap: 3px;
+        }
+    }
+@media (max-width:1300px) {
+    .flex{
+       gap: 30px; 
+    }
+/* }
+@media (max-width:1000px) {
+    .flex{
+       gap: 30px; 
+    }
+}
+@media (max-width:890px) {
+    .flex{
+       gap: 30px; 
+    }
+} */
 .button1{
     display: inline-block;
     cursor: pointer;
@@ -66,6 +119,12 @@ body{
     text-align: center;
     transition: all  0.3s;
 }
+@media (max-width:500px) {
+    .button1{
+         padding: 3px; 
+         font-size: 12px;
+        }
+    }
 a{
     color: white;
     text-decoration: none;
@@ -82,6 +141,11 @@ a{
     font-weight: bold;
     font-size: 1.2rem;
 }
+@media (max-width:500px) {
+    .top-lnk{
+           font-size: .8rem; 
+        }
+    }
 .top-lnk:hover{
     color: white;
     border-bottom: 7px solid white;
@@ -106,7 +170,7 @@ footer{
     text-decoration: none;
 }
 .margin---section{
-    margin-top: 5rem;
+    margin-top: 3.5rem;
 }
 li{
     list-style: none;
