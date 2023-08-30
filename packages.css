@@ -24,6 +24,11 @@
     background-color: rgba(211, 243, 211, 0.924);
     transition: all 0.1s;
 }
+@media (max-width:500px) {
+    .grid-item{
+        padding: 25px 20px;
+    }
+}
 .grid-item:hover{
     border-color: rgb(255, 84, 84);
 }
@@ -32,14 +37,19 @@
     border-style: solid solid solid none;
 }
 .recommend{
-    position: absolute;
-    top: 15px;
-    right: 30px;
+    position: relative;
+    left: 1rem;
     font-size: 1.4rem;
     padding: 4px 5px;
     border: 2px solid red;
     background-color: red;
     color: white;
+    align-self: flex-end;
+}
+@media (max-width:500px) {
+    .recommend{
+        font-size: 8px;
+    }
 }
 .gray{
     color: gray;
@@ -68,4 +78,9 @@ ul{
 }
 h2{
     font-size: 2rem;
+}
+@media (max-width:500px) {
+    h2,.gray{
+        font-size: 18px;
+    }
 }
